@@ -1,0 +1,88 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	background: url(bgimage.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.nav-link {
+	font-family: 'Frijole', cursive;
+	font-size: 2rem;
+	color: purple;
+	margin: 15px;
+}
+
+.nav-link:hover {
+	color: purple;
+	border: 2px solid purple;
+	border-radius: 30px;
+}
+
+.container {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid purple;
+	border-right: 2px solid purple;
+	width: 500px;
+	text-align: center;
+	color: white;
+	border-width: thick;
+}
+
+p {
+	margin: 20px;
+	color: white;
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+}
+
+.jumbotron {
+	background-color: black;
+	text-align: center;
+}
+
+.jumbotron img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+h2 {
+	font-family: fantasy;
+	color: white;
+	text-align: center;
+}
+
+.btn {
+	font-family: 'Frijole', cursive;
+	margin: 20px;
+	border: purple;
+	background-color: purple;
+}
+
+.card {
+	background-color: black;
+	margin-top: 200px;
+}
+
+.gallery {
+	width: 500px;
+	height: 333px;
+	margin: 10px;
+	transition: all 1.5s;
+}
+
+.gallery:hover {
+	transform: scale(1.5);
+}
